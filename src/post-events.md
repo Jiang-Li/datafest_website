@@ -1,11 +1,11 @@
 ---
 layout: base
-title: Past DataFest Events
+title: Past Winners
 date: 2025-03-04
 ---
 
 <div class="hero">
-    <h1>Past DataFest Events</h1>
+    <h1>Past Winners</h1>
     <p>Celebrating the achievements of our past participants and their innovative data analysis solutions.</p>
 </div>
 

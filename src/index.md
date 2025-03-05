@@ -116,4 +116,4 @@ date: 2025-03-04
 </div>
 
 <div class="section">
-    <p>Want to see what DataFest is like? <a href="http://datafest.stat.ucla.edu/past-datafests">Check out past DataFest events</a> or <a href="/post-events">view our previous winners</a>.</p> 
+    <p>Want to see what DataFest is like? <a href="http://datafest.stat.ucla.edu/past-datafests">Check out past DataFest events</a> or <a href="/post-events">view our past winners</a>.</p> 
