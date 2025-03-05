@@ -42,16 +42,17 @@ date: 2025-03-04
                 <li>Undergraduate students from any major</li>
                 <li>Master's degree students in the following programs:
                     <ul>
-                        <li>Master of Science in Communications</li>
-                        <li>Master of Science in Professional Sales Leadership</li>
-                        <li>Master of Science in Health Informatics</li>
-                        <li>Master of Business Administration - STEM</li>
-                        <li>Master of Science in Information Technology</li>
-                        <li>Master of Science in Computer Science</li>
-                        <li>Master of Business Administration</li>
-                        <li>Master of Science in Business Analytics</li>
-                        <li>Master of Science in Data Analytics</li>
-                        <li>Master of Science in Information Systems</li>
+                        <li>M.S. in Information Technology</li>
+                        <li>M.S. in Computer Science</li>
+                        <li>M.S. in Business Analytics</li>
+                        <li>M.S. in Data Analytics</li>
+                        <li>M.S. in Information Systems</li>
+                        <li>M.S. in Cybersecurity</li>
+                        <li>M.S. in Communications</li>
+                        <li>M.S. in Professional Sales Leadership</li>
+                        <li>M.S. in Health Informatics</li>
+                        <li>MBA - STEM</li>
+                        <li>MBA</li>
                         <li>Data Analytics Graduate Certificate</li>
                     </ul>
                 </li>
