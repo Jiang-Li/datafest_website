@@ -1,123 +1,143 @@
 # Franklin University DataFest Website
 
-This repository contains the source code for Franklin University's DataFest website. The website provides information about the annual ASA DataFest competition hosted at Franklin University, showcasing event details, registration information, and past event highlights with a modern, responsive design.
+This repository contains the source code for Franklin University's DataFest website, built with Eleventy (11ty) and modern web technologies. The website provides comprehensive information about the annual ASA DataFest competition, featuring event details, registration, and past winners.
 
-## About DataFest
+## 🎯 Quick Start
 
-ASA DataFest is a data analysis competition where teams of 2-5 undergraduate students work on analyzing a complex, real-world dataset over a weekend. The event features:
-- Guidance from mentors (graduate students, faculty, and industry professionals)
-- Opportunities for students to showcase their data analysis skills
-- Prizes for Best Insight
-- Networking opportunities with professionals in the field
+```bash
+# Clone the repository
+git clone https://github.com/Jiang-Li/datafest_website.git
+cd datafest_website
 
-## Website Features
+# Install dependencies
+npm install
 
-### Content
-- Modern, responsive hero sections
-- Interactive timeline for event schedule
-- Grid-based cards for tools and technologies
-- Past events and winners showcase
-- Comprehensive FAQ section
-- Contact information
+# Start development server
+npm run serve   # Site will be available at http://localhost:8080
 
-### Design & UI
-- Franklin University brand colors
-- Modern, responsive navigation
+# Build for production
+npm run build   # Output will be in _site directory
+```
+
+## 🏗 Project Structure
+
+```
+datafest_website/
+├── src/                  # Source files
+│   ├── _includes/       # Templates and layouts
+│   │   └── base.njk    # Base template with nav and footer
+│   ├── styles/         # CSS files
+│   │   └── main.css   # Main stylesheet
+│   ├── images/        # Image assets
+│   ├── index.md       # Homepage
+│   ├── faq.md         # FAQ page
+│   ├── contact.md     # Contact page
+│   └── post-events.md # Past events page
+├── _site/              # Generated site (not in repo)
+├── .eleventy.js       # Eleventy configuration
+├── package.json       # Dependencies and scripts
+└── README.md         # This file
+```
+
+## 🛠 Technical Stack
+
+- **Static Site Generator**: [Eleventy](https://www.11ty.dev/) (11ty) v2.0.1
+- **Templating**: Nunjucks
+- **Styling**: Modern CSS with Custom Properties, Grid, and Flexbox
+- **Development**:
+  - Node.js
+  - npm for package management
+  - Git for version control
+
+## 📱 Features
+
+### Content Management
+- Markdown-based content
+- Nunjucks templates for layouts
+- Automated date handling
+- SEO-optimized meta tags
+
+### User Interface
+- Responsive navigation
+- Modern hero sections
 - Card-based content layout
-- Timeline components
-- Mobile-first approach
-- Accessible design elements
-- SEO optimization
+- Interactive timeline
+- Mobile-first design
+- Accessible components
 
-## Technical Stack
+### Performance
+- Optimized asset loading
+- Minimal JavaScript usage
+- Efficient CSS organization
+- Fast build times
 
-- [Eleventy](https://www.11ty.dev/) (11ty) - Static Site Generator
-- Nunjucks for templating
-- Modern CSS with CSS Grid and Flexbox
-- Responsive images
-- Mobile-first design principles
+## 🔧 Development
 
-## Development Setup
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Git
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Jiang-Li/datafest_website.git
-   cd datafest_website
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
+### Local Development
+1. Start the development server:
    ```bash
    npm run serve
    ```
-   The development server will be available at `http://localhost:8080`
+2. Make changes to files in `src/` directory
+3. The browser will automatically reload
 
-4. Build for production:
+### Build Process
+1. Run the production build:
    ```bash
    npm run build
    ```
+2. Test the built site in `_site/` directory
+3. Deploy the contents of `_site/`
 
-## Project Structure
+### Common Tasks
+- **Update Content**: Edit markdown files in `src/`
+- **Modify Styles**: Update `src/styles/main.css`
+- **Change Layout**: Edit `src/_includes/base.njk`
+- **Add Images**: Place in `src/images/` directory
 
-```
-├── src/
-│   ├── _includes/    # Template files and layouts
-│   │   └── base.njk  # Base template with navigation and footer
-│   ├── styles/       # CSS styles
-│   │   └── main.css  # Main stylesheet
-│   ├── images/       # Image assets
-│   └── *.md         # Content pages (index, faq, etc.)
-├── .eleventy.js     # Eleventy configuration
-├── .gitignore       # Git ignore configuration
-└── package.json     # Project dependencies and scripts
-```
+## 🔍 SEO & Performance
 
-## Key Features Implementation
+The website implements several SEO best practices:
+- Semantic HTML structure
+- Meta descriptions and keywords
+- Open Graph tags
+- Responsive images
+- Fast loading times
+- Mobile-friendly design
 
-### Responsive Navigation
-- Fixed navigation bar with logo
-- Mobile-friendly menu
-- Prominent registration button
-- Smooth transitions
+## 📝 Content Guidelines
 
-### Modern UI Components
-- Hero sections with dual-button layout
-- Card grid system for content organization
-- Timeline component for event schedule
-- Footer with quick links and resources
+### Adding New Pages
+1. Create a new `.md` file in `src/`
+2. Add front matter with layout and title
+3. Write content in Markdown
+4. Update navigation if needed
 
-### Styling
-- CSS custom properties for theming
-- Responsive typography
-- Grid and Flexbox layouts
-- Animation and transitions
-- Mobile-first media queries
+### Updating Event Information
+- Event dates in `src/index.md`
+- Past winners in `src/post-events.md`
+- FAQ updates in `src/faq.md`
 
-## Development Workflow
+## 🤝 Contributing
 
-1. Content updates: Modify markdown files in `src/`
-2. Style changes: Update `src/styles/main.css`
-3. Layout modifications: Edit templates in `src/_includes/`
-4. Test locally using `npm run serve`
-5. Build for production using `npm run build`
-
-## Contributing
-
-To contribute to the website:
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
 
-## License
+## 📄 License
 
-This project is maintained by Franklin University. All rights reserved.
+Copyright © 2024 Franklin University. All rights reserved.
 
-## Contact
+## 📞 Contact
 
-For questions about DataFest at Franklin University, please visit our [contact page](https://your-website-url/contact) or reach out to the Computer Science department. 
+For questions about the website or DataFest:
+- Visit our [contact page](https://your-website-url/contact)
+- Email the Computer Science department
+- Check the [FAQ page](https://your-website-url/faq) for common questions 

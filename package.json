@@ -1,11 +1,21 @@
 {
-  "name": "your-website",
+  "name": "franklin-datafest-website",
   "version": "1.0.0",
+  "description": "Franklin University DataFest website built with Eleventy",
+  "private": true,
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "clean": "rm -rf _site",
+    "debug": "DEBUG=* eleventy",
+    "start": "npm run serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Franklin University",
+  "license": "UNLICENSED"
 } 

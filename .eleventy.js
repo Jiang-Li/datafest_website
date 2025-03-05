@@ -13,7 +13,8 @@ module.exports = function(eleventyConfig) {
     return new Date().toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
+      day: 'numeric',
+      timeZone: 'America/New_York'
     });
   });
 
