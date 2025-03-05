@@ -8,6 +8,15 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // Add current date filter
+  eleventyConfig.addFilter("currentDate", function() {
+    return new Date().toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  });
+
   // Copy the `styles` directory to the output
   eleventyConfig.addPassthroughCopy("src/styles");
   

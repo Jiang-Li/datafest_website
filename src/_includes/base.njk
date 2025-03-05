@@ -96,9 +96,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; {{ "2025" }} Franklin University. All rights reserved.</p>
-                {% if page.date %}
-                <small>Last updated: {{ page.date | formatDate }}</small>
-                {% endif %}
+                <small>Last updated: {{ currentDate }}</small>
             </div>
         </div>
     </footer>

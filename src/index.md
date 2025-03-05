@@ -40,10 +40,27 @@ date: 2025-03-04
             <h3>Who Can Participate?</h3>
             <ul>
                 <li>Undergraduate students from any major</li>
-                <li>Master's degree students in the following programs: Master of Science in Communications, Master of Science in Professional Sales Leadership, Master of Science in Health Informatics, Master of Business Administration - STEM, Master of Science in Information Technology, Master of Science in Computer Science, Master of Business Administration, Master of Science in Business Analytics, Master of Science in Data Analytics, Master of Science in Information Systems, Data Analytics Graduate Certificate</li>
+                <li>Master's degree students in the following programs:
+                    <ul>
+                        <li>Master of Science in Communications</li>
+                        <li>Master of Science in Professional Sales Leadership</li>
+                        <li>Master of Science in Health Informatics</li>
+                        <li>Master of Business Administration - STEM</li>
+                        <li>Master of Science in Information Technology</li>
+                        <li>Master of Science in Computer Science</li>
+                        <li>Master of Business Administration</li>
+                        <li>Master of Science in Business Analytics</li>
+                        <li>Master of Science in Data Analytics</li>
+                        <li>Master of Science in Information Systems</li>
+                        <li>Data Analytics Graduate Certificate</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Team and Experience Requirements:</h4>
+            <ul>
                 <li>Teams of 2-5 students</li>
-                <li>No prior data analysis experience required</li>
-                <li>All skill levels welcome</li>
+                <li>No prior data analysis experience required, but a desire to learn and work with others is expected</li>
+                <li>All skill levels are welcome</li>
             </ul>
         </div>
         <div class="card">

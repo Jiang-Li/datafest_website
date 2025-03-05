@@ -1,7 +1,6 @@
 ---
 layout: base
 title: Past Winners
-date: 2025-03-04
 ---
 
 <div class="hero">

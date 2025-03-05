@@ -1,7 +1,6 @@
 ---
 layout: base
 title: Contact Us
-date: 2025-03-04
 ---
 
 <div class="hero">
