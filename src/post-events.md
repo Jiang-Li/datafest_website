@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Past DataFest Events
+date: 2024-03-05
 ---
 
 <div class="hero">
@@ -14,7 +15,7 @@ title: Past DataFest Events
         <h3>Winners - Best Insight Award</h3>
         <ul>
             <li><a href="https://www.linkedin.com/in/jennifermeggison/">Jennifer Meggison</a> - <a href="https://www.franklin.edu/degrees/bachelors/social-sciences">B.S. Social Sciences</a></li>
-            <li><a href="https://www.linkedin.com/in/ericadperkins/">Erica Perkins</a> - <a href="https://www.franklin.edu/degrees/bachelors/computer-science">Computer Science</a></li>
+            <li><a href="https://www.linkedin.com/in/ericadperkins/">Erica Perkins</a> - <a href="https://www.franklin.edu/degrees/bachelors/computer-science">B.S. Computer Science</a></li>
         </ul>
         <p><strong>Prize:</strong> Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)</p>
     </div>
@@ -25,20 +26,9 @@ title: Past DataFest Events
     <div class="card">
         <h3>Winners - Best Insight Award</h3>
         <ul>
-            <li><a href="https://www.linkedin.com/in/jennifermeggison/">Jennifer Meggison</a> - <a href="https://www.franklin.edu/degrees/bachelors/social-sciences">B.S. Social Sciences</a></li>
+            <li><a href="https://www.linkedin.com/in/rose-pepoy-433365206/">Rose Pepoy</a> - <a href="https://www.franklin.edu/degrees/bachelors/applied-management">B.S. in Applied Management</a></li>
+            <li><a href="https://www.linkedin.com/in/ruthwadams/">Ruth Adams</a> - <a href="https://www.franklin.edu/degrees/bachelors/operations-supply-chain-management">B.S. Operations & Supply Chain Management</a></li>
         </ul>
         <p><strong>Prize:</strong> Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)</p>
     </div>
 </div>
-
-<!-- Placeholder for future video content -->
-<!--
-<div class="section">
-    <h2>Event Highlights</h2>
-    <div class="video-container">
-        <iframe width="1024" height="576" src="https://www.youtube.com/embed/zJU8LhORpD4" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
--->
-
-

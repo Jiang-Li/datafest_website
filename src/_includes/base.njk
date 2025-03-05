@@ -20,22 +20,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="/styles/main.css">
+    {% if page.url == "/" %}
+    <link rel="stylesheet" href="styles/main.css">
+    {% else %}
+    <link rel="stylesheet" href="../styles/main.css">
+    {% endif %}
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav">
         <div class="container nav-container">
-            <a href="/" class="nav-logo">
-                <img src="/images/logo.jpg" alt="Franklin DataFest" style="height: 40px; width: auto;">
+            {% if page.url == "/" %}
+            <a href="." class="nav-logo">
+                <img src="images/logo.jpg" alt="Franklin DataFest" style="height: 40px; width: auto;">
+            {% else %}
+            <a href="../" class="nav-logo">
+                <img src="../images/logo.jpg" alt="Franklin DataFest" style="height: 40px; width: auto;">
+            {% endif %}
                 <span>DataFest</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/post-events">Past Events</a>
-                <a href="/faq">FAQ</a>
-                <a href="/contact">Contact</a>
-                <a href="https://connect.franklin.edu/register/?id=65e1db6b-0bc0-48f1-94c4-d46e95e5bec2" class="button" style="margin-left: 1rem;">Register</a>
+                {% if page.url == "/" %}
+                <a href=".">Home</a>
+                <a href="post-events/">Past Events</a>
+                <a href="faq/">FAQ</a>
+                <a href="contact/">Contact</a>
+                {% else %}
+                <a href="../">Home</a>
+                <a href="../post-events/">Past Events</a>
+                <a href="../faq/">FAQ</a>
+                <a href="../contact/">Contact</a>
+                {% endif %}
+                <a href="https://forms.gle/R3YvkfzgD7714vQ79" class="button" style="margin-left: 1rem;">Register</a>
             </div>
         </div>
     </nav>
@@ -52,10 +68,17 @@
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/post-events">Past Events</a></li>
-                        <li><a href="/faq">FAQ</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        {% if page.url == "/" %}
+                        <li><a href=".">Home</a></li>
+                        <li><a href="post-events/">Past Events</a></li>
+                        <li><a href="faq/">FAQ</a></li>
+                        <li><a href="contact/">Contact</a></li>
+                        {% else %}
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../post-events/">Past Events</a></li>
+                        <li><a href="../faq/">FAQ</a></li>
+                        <li><a href="../contact/">Contact</a></li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-section">

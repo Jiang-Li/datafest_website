@@ -1,6 +1,7 @@
 ---
 layout: base
-title: DataFest FAQ
+title: Frequently Asked Questions
+date: 2024-03-05
 ---
 
 # Frequently Asked Questions
