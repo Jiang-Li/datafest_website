@@ -63,7 +63,7 @@ date: 2024-03-05
     <h2>About ASA DataFest</h2>
     <p>The American Statistical Association (ASA) DataFest is a celebration of data where teams of students work around the clock to analyze a complex, real-world dataset. Students use their creativity and analytical skills to discover and communicate insights from the data.</p>
     
-    <p>Teams will be guided by roving mentors who are graduate students, faculty, and industry professionals. Many professionals find ASA DataFest to be a great recruiting opportunity–they get to watch and support talented undergraduate students work under pressure in a team setting.</p>
+    <p>Teams will be guided by roving mentors who are faculty members or industry professionals. Many professionals find ASA DataFest to be a great recruiting opportunity–they get to watch and support talented undergraduate students work under pressure in a team setting.</p>
 </div>
 
 <div class="section">
