@@ -3,29 +3,42 @@ layout: base
 title: Past DataFest Events
 ---
 
-# Past DataFest Events
+<div class="hero">
+    <h1>Past DataFest Events</h1>
+    <p>Celebrating the achievements of our past participants and their innovative data analysis solutions.</p>
+</div>
 
-We are incredibly proud of the diligence and creativity exhibited by the teams that participated in ASA DataFest hosted at Franklin University! Congratulations to the winning teams!
+<div class="section">
+    <h2>DataFest 2024</h2>
+    <div class="card">
+        <h3>Winners - Best Insight Award</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/jennifermeggison/">Jennifer Meggison</a> - <a href="https://www.franklin.edu/degrees/bachelors/social-sciences">B.S. Social Sciences</a></li>
+            <li><a href="https://www.linkedin.com/in/ericadperkins/">Erica Perkins</a> - <a href="https://www.franklin.edu/degrees/bachelors/computer-science">Computer Science</a></li>
+        </ul>
+        <p><strong>Prize:</strong> Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)</p>
+    </div>
+</div>
 
-## DataFest 2024
+<div class="section">
+    <h2>DataFest 2022</h2>
+    <div class="card">
+        <h3>Winners - Best Insight Award</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/jennifermeggison/">Jennifer Meggison</a> - <a href="https://www.franklin.edu/degrees/bachelors/social-sciences">B.S. Social Sciences</a></li>
+        </ul>
+        <p><strong>Prize:</strong> Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)</p>
+    </div>
+</div>
 
-### Winners
-
-- [Jennifer Meggison](https://www.linkedin.com/in/jennifermeggison/), [B.S. Social Sciences](https://www.franklin.edu/degrees/bachelors/social-sciences)
-- [Erica Perkins](https://www.linkedin.com/in/ericadperkins/), [Computer Science](https://www.franklin.edu/degrees/bachelors/computer-science)
-
-Award: Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)
-
-<!-- <iframe width="1024" height="576" src="https://www.youtube.com/embed/zJU8LhORpD4" frameborder="0" allowfullscreen></iframe> -->
-
----
-
-## DataFest 2022
-
-### Winners
-
-- [Jennifer Meggison](https://www.linkedin.com/in/jennifermeggison/), [B.S. Social Sciences](https://www.franklin.edu/degrees/bachelors/social-sciences)
-
-Award: Badge for "Best Insight" and one year membership to The American Statistical Association (ASA)
+<!-- Placeholder for future video content -->
+<!--
+<div class="section">
+    <h2>Event Highlights</h2>
+    <div class="video-container">
+        <iframe width="1024" height="576" src="https://www.youtube.com/embed/zJU8LhORpD4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+-->
 
 
