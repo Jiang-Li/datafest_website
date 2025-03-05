@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Frequently Asked Questions
-date: 2024-03-05
+date: 2025-03-04
 ---
 
 <div class="hero">
