@@ -1,13 +1,13 @@
 module.exports = function(eleventyConfig) {
-  // Add Git plugin
-  const pluginGit = require("@11ty/eleventy-plugin-git");
-  eleventyConfig.addPlugin(pluginGit, {
-    commitMessage: true,
-    commitDate: true,
-    authors: true,
-    modifiedDate: true
+  // Add date filter
+  eleventyConfig.addFilter("formatDate", function(date) {
+    return new Date(date).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
   });
-  
+
   // Copy the `styles` directory to the output
   eleventyConfig.addPassthroughCopy("src/styles");
   

@@ -7,7 +7,7 @@
     
     <!-- Meta tags -->
     <meta name="description" content="Franklin University's ASA DataFest - A data analysis competition where undergraduate students work with real-world datasets.">
-    <meta name="keywords" content="Franklin University, DataFest, Data Analysis, Competition, ASA, Statistics">
+    <meta name="keywords" content="Franklin University, DataFest, Data Analysis, Competition, ASA, Statistics, Data Science">
     
     <!-- Open Graph tags -->
     <meta property="og:title" content="{{ title }} | Franklin University DataFest">
@@ -26,28 +26,57 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="container nav-container">
-            <a href="/" class="nav-logo">DataFest</a>
+            <a href="/" class="nav-logo">
+                <img src="/images/logo.jpg" alt="Franklin DataFest" style="height: 40px; width: auto;">
+                <span>DataFest</span>
+            </a>
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/post-events">Past Events</a>
                 <a href="/faq">FAQ</a>
                 <a href="/contact">Contact</a>
+                <a href="https://connect.franklin.edu/register/?id=65e1db6b-0bc0-48f1-94c4-d46e95e5bec2" class="button" style="margin-left: 1rem;">Register</a>
             </div>
         </div>
     </nav>
 
     <!-- Main content -->
-    <main class="container">
+    <main>
         {{ content | safe }}
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; {{ page.date.getFullYear() if page.date else "2024" }} Franklin University. All rights reserved.</p>
-            {% if page.date %}
-            <small>Last updated: {{ page.date | date: "%B %d, %Y" }}</small>
-            {% endif %}
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/post-events">Past Events</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="http://datafest.stat.ucla.edu/past-datafests">DataFest Archive</a></li>
+                        <li><a href="https://www.franklin.edu">Franklin University</a></li>
+                        <li><a href="https://www.amstat.org">American Statistical Association</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Franklin University<br>201 S Grant Ave<br>Columbus, OH 43215</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ "2024" }} Franklin University. All rights reserved.</p>
+                {% if page.date %}
+                <small>Last updated: {{ page.date | formatDate }}</small>
+                {% endif %}
+            </div>
         </div>
     </footer>
 </body>
