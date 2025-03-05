@@ -15,8 +15,8 @@ npm install
 # Start development server
 npm run serve   # Site will be available at http://localhost:8080
 
-# Build for production
-npm run build   # Output will be in _site directory
+# Build for production (with optimizations)
+npm run build:prod   # Output will be in _site directory
 ```
 
 ## 🏗 Project Structure
@@ -48,6 +48,11 @@ datafest_website/
   - Node.js
   - npm for package management
   - Git for version control
+- **Build Optimizations**:
+  - HTML minification (production)
+  - CSS minification (production)
+  - Image optimization
+  - Responsive image generation
 
 ## 📱 Features
 
@@ -70,6 +75,9 @@ datafest_website/
 - Minimal JavaScript usage
 - Efficient CSS organization
 - Fast build times
+- Automatic image optimization
+- Production minification
+- Responsive images
 
 ## 🔧 Development
 
@@ -87,10 +95,15 @@ datafest_website/
 3. The browser will automatically reload
 
 ### Build Process
-1. Run the production build:
+1. Run the production build with optimizations:
    ```bash
-   npm run build
+   npm run build:prod
    ```
+   This will:
+   - Minify HTML
+   - Minify CSS
+   - Optimize images
+   - Generate responsive image sizes
 2. Test the built site in `_site/` directory
 3. Deploy the contents of `_site/`
 
@@ -98,17 +111,18 @@ datafest_website/
 - **Update Content**: Edit markdown files in `src/`
 - **Modify Styles**: Update `src/styles/main.css`
 - **Change Layout**: Edit `src/_includes/base.njk`
-- **Add Images**: Place in `src/images/` directory
+- **Add Images**: Place in `src/images/` directory (they will be automatically optimized)
 
 ## 🔍 SEO & Performance
 
-The website implements several SEO best practices:
+The website implements several SEO and performance best practices:
 - Semantic HTML structure
 - Meta descriptions and keywords
 - Open Graph tags
-- Responsive images
-- Fast loading times
+- Responsive images with automatic optimization
+- Fast loading times through minification
 - Mobile-friendly design
+- Compressed assets in production
 
 ## 📝 Content Guidelines
 

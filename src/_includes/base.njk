@@ -21,9 +21,9 @@
     
     <!-- Styles -->
     {% if page.url == "/" %}
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css" {% if env.NODE_ENV == "production" %}{{ content | cssmin }}{% endif %}>
     {% else %}
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css" {% if env.NODE_ENV == "production" %}{{ content | cssmin }}{% endif %}>
     {% endif %}
 </head>
 <body>
