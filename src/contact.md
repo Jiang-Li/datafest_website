@@ -10,9 +10,10 @@ date: 2024-03-05
 </div>
 
 <div class="section">
-    <div class="content">
-        <p>We are excited to see insightful analyses and cool visualizations from our students! If you have any concerns or questions, feel free to email to <a href="mailto:datafest@franklin.edu">datafest@franklin.edu</a></p>
-    </div>
+<div class="content">
+    <p><strong>DataFest Organizing Committee:</strong> Dr. Nimet Alpay, Dr. Jiang Li, Prof. Laurie Crawford</p>
+    <p>We are excited to see insightful analyses and cool visualizations from our students! If you have any concerns or questions, feel free to email <a href="mailto:datafest@franklin.edu">datafest@franklin.edu</a></p>
+</div>    
 </div>
 
 Additional Resources

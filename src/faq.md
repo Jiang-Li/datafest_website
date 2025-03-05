@@ -4,7 +4,13 @@ title: Frequently Asked Questions
 date: 2024-03-05
 ---
 
-# Frequently Asked Questions
+<div class="hero">
+    <h1>Frequently Asked Questions</h1>
+    <p>Find answers to common questions about Franklin University's DataFest.</p>
+</div>
+
+<div class="faq-content">
+
 
 1. **If I don't have a team, can I participate in the DataFest individually?**  
    This is a team challenge. We encourage students to form their own team for the best experience. However, if you don't have a team, please still register for the event using this link, and indicate that you need a team. We will place you on a team.
@@ -26,3 +32,5 @@ date: 2024-03-05
 
 7. **Does everyone in the team have to be in the final presentation?**  
    Not at all. The teams can decide who will present the analysis. It could be just one person or multiple team-mates. The names of all team members must be listed on the cover page of the presentation. 
+
+</div> 

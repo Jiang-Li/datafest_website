@@ -380,4 +380,52 @@ footer p {
 
 .animate-in {
   animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* FAQ Styles */
+.faq-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;  /* Remove top padding since we're using hero section */
+}
+
+.faq-content h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.faq-content ol {
+    list-style: none;
+    counter-reset: faq-counter;
+    padding: 0;
+}
+
+.faq-content ol li {
+    counter-increment: faq-counter;
+    margin-bottom: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.faq-content ol li strong {
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-content ol li::before {
+    content: counter(faq-counter) ".";
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.faq-content p {
+    margin: 0;
+    color: var(--light-text);
+    line-height: 1.6;
 } 
