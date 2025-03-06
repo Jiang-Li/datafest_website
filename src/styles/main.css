@@ -161,6 +161,11 @@ a:hover {
 .section {
   margin-bottom: 1rem;
   padding: 0.5rem 0;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .section h2 {
@@ -170,9 +175,21 @@ a:hover {
 
 .section-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin: 1rem 0;
+}
+
+@media (max-width: 1024px) {
+  .section-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Cards */
@@ -362,10 +379,6 @@ footer p {
     font-size: 1.25rem;
   }
   
-  .section-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -399,7 +412,7 @@ footer p {
 .faq-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 1rem;  /* Remove top padding since we're using hero section */
+    padding: 0 1rem;
 }
 
 .faq-content h1 {
@@ -421,6 +434,15 @@ footer p {
     border-radius: 12px;
     padding: 1.25rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 1rem;
+}
+
+.faq-content ol li::before {
+    content: counter(faq-counter) ".";
+    font-weight: bold;
+    color: var(--primary-color);
+    flex-shrink: 0;
 }
 
 .faq-content ol li strong {
@@ -428,13 +450,6 @@ footer p {
     color: var(--primary-color);
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-}
-
-.faq-content ol li::before {
-    content: counter(faq-counter) ".";
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-right: 0.5rem;
 }
 
 .faq-content p {
