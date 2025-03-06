@@ -19,143 +19,119 @@ date: 2025-03-04
 <div class="section">
     <div class="section-grid">
         <div class="card">
-
-### Event Details
-
-* **Dates:** April 25–27, 2025
-* **Format:** Virtual
-* **Registration Deadline:** April 4, 2025
-* **Kick-off:** Friday, April 25 at 5pm
-* **Final Presentation Submissions:** Sunday, April 25
-* **Pre-event workshop:**
-    * Excel Analytics Essentials on April 11, 2025, at 7 PM EST
-    * Python Analytics Essentials on April 18, 2025, at 7 PM EST
-    * R Analytics Essentials Studio on April 21, 2025, at 7 PM EST
-* *You are expected to attend at least two of them to be qualified to attend the event.*
-
+            <h3>Event Details</h3>
+            <ul>
+                <li><strong>Dates:</strong> April 25–27, 2025</li>
+                <li><strong>Format:</strong> Virtual</li>
+                <li><strong>Registration Deadline:</strong> April 4, 2025</li>
+                <li><strong>Kick-off:</strong> Friday, April 25 at 5pm</li>
+                <li><strong>Final Presentation Submissions:</strong> Sunday, April 25</li>
+                <li><strong>Pre-event workshop:</strong>
+                    <ul>
+                        <li>Workshop 1: Excel Analytics Essentials on April 11, 2025, at 7 PM EST</li>
+                        <li>Workshop 2: Python Analytics Essentials on April 18, 2025, at 7 PM EST</li>
+                        <li>Workshop 3: R Analytics Essentials Studio on April 21, 2025, at 7 PM EST</li>
+                    </ul>
+                    <li><i>You are expected to attend at least two of them to be qualified to attend the event.</i></li>
+                </li>
+            </ul>
         </div>
         <div class="card">
-
-### Who Can Participate?
-
-* Undergraduate students from any major
-* Master's degree students in the following programs:
-    * M.S. in Information Technology
-    * M.S. in Computer Science
-    * M.S. in Business Analytics
-    * M.S. in Data Analytics
-    * M.S. in Information Systems
-    * M.S. in Cybersecurity
-    * M.S. in Communications
-    * M.S. in Professional Sales Leadership
-    * M.S. in Health Informatics
-    * MBA - STEM
-    * MBA
-    * Data Analytics Graduate Certificate
-
-#### Team and Experience Requirements:
-
-* Teams of 2-5 students
-* No prior data analysis experience required, but a desire to learn and work with others is expected
-* All skill levels are welcome
-
+            <h3>Who Can Participate?</h3>
+            <ul>
+                <li>Undergraduate students from any major</li>
+                <li>Master's degree students in the following programs:
+                    <ul>
+                        <li>M.S. in Information Technology</li>
+                        <li>M.S. in Computer Science</li>
+                        <li>M.S. in Business Analytics</li>
+                        <li>M.S. in Data Analytics</li>
+                        <li>M.S. in Information Systems</li>
+                        <li>M.S. in Cybersecurity</li>
+                        <li>M.S. in Communications</li>
+                        <li>M.S. in Professional Sales Leadership</li>
+                        <li>M.S. in Health Informatics</li>
+                        <li>MBA - STEM</li>
+                        <li>MBA</li>
+                        <li>Data Analytics Graduate Certificate</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Team and Experience Requirements:</h4>
+            <ul>
+                <li>Teams of 2-5 students</li>
+                <li>No prior data analysis experience required, but a desire to learn and work with others is expected</li>
+                <li>All skill levels are welcome</li>
+            </ul>
         </div>
         <div class="card">
-
-### What You'll Get
-
-* Real-world data analysis experience
-* Mentorship from industry professionals
-* Networking opportunities
-* Chance to win prizes: Best in Show, Best Visualization, with Franklin University Badge 
-* One year membership to The American Statistical Association (ASA)
-
+            <h3>What You'll Get</h3>
+            <ul>
+                <li>Real-world data analysis experience</li>
+                <li>Mentorship from industry professionals</li>
+                <li>Networking opportunities</li>
+                <li>Chance to win prizes: Best in Show, Best Visualization, with Franklin University Badge </li>
+                <li>One year membership to The American Statistical Association (ASA)</li>
+            </ul>
         </div>
     </div>
 </div>
 
 <div class="section">
-
-## About ASA DataFest
-
-The American Statistical Association (ASA) DataFest is a celebration of data where teams of students work around the clock to analyze a complex, real-world dataset. Students use their creativity and analytical skills to discover and communicate insights from the data.
-
-Teams will be guided by roving mentors who are faculty members or industry professionals. Many professionals find ASA DataFest to be a great recruiting opportunity–they get to watch and support talented undergraduate students work under pressure in a team setting.
-
+    <h2>About ASA DataFest</h2>
+    <p>The American Statistical Association (ASA) DataFest is a celebration of data where teams of students work around the clock to analyze a complex, real-world dataset. Students use their creativity and analytical skills to discover and communicate insights from the data.</p>
+    
+    <p>Teams will be guided by roving mentors who are faculty members or industry professionals. Many professionals find ASA DataFest to be a great recruiting opportunity–they get to watch and support talented undergraduate students work under pressure in a team setting.</p>
 </div>
 
 <div class="section">
-
-## Competition Format
-
-<div class="timeline">
-    <div class="timeline-item">
-
-### Day 1: Kick-off
-
-Teams receive the surprise dataset and begin their analysis journey. The data is always interesting and comes from a real-world client.
-
+    <h2>Competition Format</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>Day 1: Kick-off</h3>
+            <p>Teams receive the surprise dataset and begin their analysis journey. The data is always interesting and comes from a real-world client.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Day 2: Analysis</h3>
+            <p>Full day of data wrangling, analysis, and visualization. Mentors are available to guide teams through challenges.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Day 3: Presentation Submission</h3>
+            <p>Teams prepare and deliver their findings to a panel of judges. Each team has a few minutes video recording and two slides to impress the judges with their best insights.</p>
+        </div>
     </div>
-    <div class="timeline-item">
-
-### Day 2: Analysis
-
-Full day of data wrangling, analysis, and visualization. Mentors are available to guide teams through challenges.
-
-    </div>
-    <div class="timeline-item">
-
-### Day 3: Presentation Submission
-
-Teams prepare and deliver their findings to a panel of judges. Each team has a few minutes video recording and two slides to impress the judges with their best insights.
-
-    </div>
-</div>
 </div>
 
 <div class="section">
+    <h2>Tools & Technology</h2>
+    <p>Students can use any tools they prefer for data analysis, including:</p>
+    <div class="section-grid">
+        <div class="card">
+            <h3>Data Analysis</h3>
+            <ul>
+                <li>Microsoft Excel, Power Query</li>
+                <li>Python</li>
+                <li>R</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Visualization</h3>
+            <ul>
+                <li>Microsoft Excel</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-## Tools & Technology
-
-Students can use any tools they prefer for data analysis, including:
-
-<div class="section-grid">
+<div class="section">
+    <h2>Ready to Join?</h2>
     <div class="card">
-
-### Data Analysis
-
-* Microsoft Excel, Power Query
-* Python
-* R
-
+        <p>Registration is open until April 4, 2025. Don't have a team? No problem! We'll help match you with other participants.</p>
+        <a href="https://forms.gle/R3YvkfzgD7714vQ79" class="button">Register for DataFest 2025</a>
     </div>
-    <div class="card">
-
-### Visualization
-
-* Microsoft Excel
-* Power BI
-* Tableau
-
-    </div>
-</div>
 </div>
 
 <div class="section">
-
-## Ready to Join?
-
-<div class="card">
-
-Registration is open until April 4, 2025. Don't have a team? No problem! We'll help match you with other participants.
-
-<a href="https://forms.gle/R3YvkfzgD7714vQ79" class="button">Register for DataFest 2025</a>
-
-</div>
-</div>
-
-<div class="section">
-
-Want to see what DataFest is like? [Check out past DataFest events](http://datafest.stat.ucla.edu/past-datafests) or [view our past winners](/post-events).
-
-</div> 
+    <p>Want to see what DataFest is like? <a href="http://datafest.stat.ucla.edu/past-datafests">Check out past DataFest events</a> or <a href="/post-events">view our past winners</a>.</p> 
