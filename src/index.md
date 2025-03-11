@@ -23,7 +23,7 @@ date: 2025-03-04
             <ul>
                 <li><strong>Dates:</strong> April 25–27, 2025</li>
                 <li><strong>Format:</strong> Virtual</li>
-                <li><strong>Registration Deadline:</strong> April 4, 2025</li>
+                <li><strong>Registration Deadline:</strong> April 9, 2025</li>
                 <li><strong>Kick-off:</strong> Friday, April 25 at 5pm</li>
                 <li><strong>Final Presentation Submissions:</strong> Sunday, April 25</li>
                 <li><strong>Pre-event workshop:</strong>
@@ -39,8 +39,12 @@ date: 2025-03-04
         <div class="card">
             <h3>Who Can Participate?</h3>
             <ul>
-                <li>Undergraduate students from any major</li>
-                <li>Master's degree students in the following programs:
+                <li><strong>Undergraduate students:</strong>
+                    <ul> 
+                      <li>Any program</li> 
+                    </ul>
+                </li>
+                <li><strong>Master's degree students:</strong>
                     <ul>
                         <li>M.S. in Information Technology</li>
                         <li>M.S. in Computer Science</li>
@@ -51,6 +55,7 @@ date: 2025-03-04
                         <li>M.S. in Communications</li>
                         <li>M.S. in Professional Sales Leadership</li>
                         <li>M.S. in Health Informatics</li>
+                        <li>M.S. in Accounting</li>
                         <li>MBA - STEM</li>
                         <li>MBA</li>
                         <li>Data Analytics Graduate Certificate</li>

@@ -1,0 +1,13 @@
+Use Eleventy for this project.
+
+description: "Use Markdown for content whenever possible"
+prefer: markdown
+except: ["complex-layout", "interactive-elements"]
+
+description: "Use HTML only when necessary"
+when: ["complex-layout", "interactive-elements", "custom-styling"]
+
+STYLE
+indent: 2
+quotes: single
+line_length: 80 
