@@ -11,7 +11,7 @@ date: 2025-03-04
     <h1>ASA DataFest 2025</h1>
     <p>A celebration of data analytics where students work with real-world data to solve complex problems.</p>
     <div class="hero-buttons">
-        <a href="https://forms.gle/R3YvkfzgD7714vQ79" class="button">Register Now</a>
+        <a href="https://connect.franklin.edu/register/?id=9c2c8750-6a42-44c4-8164-9f2173057300" class="button">Register Now</a>
         <a href="faq/" class="button" style="background: transparent; border: 2px solid white;">Learn More</a>
     </div>
 </div>
@@ -133,8 +133,8 @@ date: 2025-03-04
 <div class="section">
     <h2>Ready to Join?</h2>
     <div class="card">
-        <p>Registration is open until April 4, 2025. Don't have a team? No problem! We'll help match you with other participants.</p>
-        <a href="https://forms.gle/R3YvkfzgD7714vQ79" class="button">Register for DataFest 2025</a>
+        <p>Registration is open until April 9, 2025. Don't have a team? No problem! We'll help match you with other participants.</p>
+        <a href="https://connect.franklin.edu/register/?id=9c2c8750-6a42-44c4-8164-9f2173057300" class="button">Register for DataFest 2025</a>
     </div>
 </div>
 
