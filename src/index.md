@@ -1,17 +1,17 @@
 ---
 layout: base
 title: Franklin University DataFest
-date: 2025-03-04
+date: 2026-03-04
 ---
 
 <div class="hero">
     <div class="logo-image">
-        <img src="images/logo.jpg" alt="DataFest 2025">
+        <img src="images/Franklindatafest_logo.png" alt="DataFest 2026">
     </div>
-    <h1>ASA DataFest 2025</h1>
+    <h1>ASA DataFest 2026</h1>
     <p>A celebration of data analytics where students work with real-world data to solve complex problems.</p>
     <div class="hero-buttons">
-        <a href="https://connect.franklin.edu/register/?id=9c2c8750-6a42-44c4-8164-9f2173057300" class="button">Register Now</a>
+        <a href="https://connect.franklin.edu/register/?id=04cdce05-95e6-4542-b5d0-e30881287f4e" class="button">Register Now</a>
         <a href="faq/" class="button" style="background: transparent; border: 2px solid white;">Learn More</a>
     </div>
 </div>
@@ -21,18 +21,18 @@ date: 2025-03-04
         <div class="card">
             <h3>Event Details</h3>
             <ul>
-                <li><strong>Dates:</strong> April 25–27, 2025</li>
-                <li><strong>Format:</strong> Virtual</li>
-                <li><strong>Registration Deadline:</strong> April 9, 2025</li>
-                <li><strong>Kick-off:</strong> Friday, April 25 at 5pm</li>
-                <li><strong>Final Presentation Submissions:</strong> Sunday, April 25</li>
+                <li><strong>Dates:</strong> April 24–26, 2026</li>
+                <li><strong>Format:</strong> Online team work</li>
+                <li><strong>Registration Deadline:</strong> April 12, 2026</li>
+                <li><strong>Team Formation Deadline:</strong> April 22, 2026 (qualified attendees need to form teams by this date)</li>
+                <li><strong>Kick-off:</strong> Friday, April 24 at 5pm</li>
+                <li><strong>Final Presentation Submissions:</strong> Sunday, April 26 at 5pm</li>
                 <li><strong>Pre-event workshop:</strong>
                     <ul>
-                        <li>Workshop 1: Excel Analytics Essentials on April 11, 2025, at 7 PM EST</li>
-                        <li>Workshop 2: Python Analytics Essentials on April 18, 2025, at 7 PM EST</li>
-                        <li>Workshop 3: R Analytics Essentials Studio on April 21, 2025, at 7 PM EST</li>
+                        <li>Workshop 1: Introduction to Analytics and Excel Analytics Essentials on April 14, 2026, at 5:30 PM EST</li>
+                        <li>Workshop 2: AI-Augmented Analytics in Python on April 20, 2026, at 5:30 PM EST</li>
                     </ul>
-                    <li><i>You are expected to attend at least two of them to be qualified to attend the event.</i></li>
+                    <li><i>You are expected to attend both, or watch recording and send reflection, to be qualified to attend the event.</i></li>
                 </li>
             </ul>
         </div>
@@ -64,7 +64,7 @@ date: 2025-03-04
             </ul>
             <h4>Team and Experience Requirements:</h4>
             <ul>
-                <li>Teams of 2-5 students</li>
+                <li>Teams of 2-5 students, at least one undergraduate student in the team</li>
                 <li>No prior data analysis experience required, but a desire to learn and work with others is expected</li>
                 <li>All skill levels are welcome</li>
             </ul>
@@ -133,8 +133,8 @@ date: 2025-03-04
 <div class="section">
     <h2>Ready to Join?</h2>
     <div class="card">
-        <p>Registration is open until April 9, 2025. Don't have a team? No problem! We'll help match you with other participants.</p>
-        <a href="https://connect.franklin.edu/register/?id=9c2c8750-6a42-44c4-8164-9f2173057300" class="button">Register for DataFest 2025</a>
+        <p>Registration is open until April 12, 2026. Don't have a team? No problem! We'll help match you with other participants.</p>
+        <a href="https://connect.franklin.edu/register/?id=04cdce05-95e6-4542-b5d0-e30881287f4e" class="button">Register for DataFest 2026</a>
     </div>
 </div>
 
